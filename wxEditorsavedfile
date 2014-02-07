@@ -1,11 +1,5 @@
 /***************************************************************
- * Name:      wxEditorMain.cpp
- * Purpose:   Code for Application Frame
- * Author:    Erick Barrera (me@erickbarrera.com)
- * Created:   2014-01-27
- * Copyright: Erick Barrera (ErickBarrera.com)
- * License:
- **************************************************************/
+Just testing the dsave functionality of my text editor **************************************************************/
 
 #include "wxEditorMain.h"
 #include <wx/msgdlg.h>

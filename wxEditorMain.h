@@ -34,7 +34,8 @@ class wxEditorFrame: public wxFrame
         void OnQuit(wxCommandEvent& event);
         void OnAbout(wxCommandEvent& event);
         void OnClose(wxCloseEvent& event);
-       void OnOpen(wxCommandEvent& event);
+        void OnOpen(wxCommandEvent& event);
+        void OnSave(wxCommandEvent& event);
         //*)
 
         //(*Identifiers(wxEditorFrame)
@@ -56,7 +57,8 @@ enum{
     ID_TextBox,
     idMenuQuit = 1000,
     idMenuAbout,
-    idMenuOpen
+    idMenuOpen,
+    idMenuSave
 };
 
 #endif // WXEDITORMAIN_H4
